@@ -1473,7 +1473,7 @@ img#wpstats {
 	.main-navigation li {
 		display: block;
 		text-decoration: none;
-		text-align:center;
+		text-align:center;	
 
 	}
 	.main-navigation li a {
@@ -1482,9 +1482,10 @@ img#wpstats {
 		line-height: 3.692307692;
 		text-transform: uppercase;
 		white-space: nowrap;
-		border-bottom:solid 2px none;
+		padding-bottom:2px;
 	}
 	.main-navigation li a:hover {
+			padding-bottom:0 !important;
 		border-bottom:solid 2px #00ADEE;
 	}
 	.main-navigation li {
@@ -1720,6 +1721,11 @@ img#wpstats {
 		height: auto;
 		overflow: hidden;
 		float:left;
+	}
+	
+	.category-home{
+		width:100%;
+		border-bottom:none !important;
 	}
 }
 
