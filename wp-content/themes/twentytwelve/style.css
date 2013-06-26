@@ -1624,7 +1624,7 @@ img#wpstats {
 	}
 
 	#topo nav{
-		width: 440px;
+		width: 100%;
 		height: auto;
 		overflow: hidden;
 		margin-right:400px;
